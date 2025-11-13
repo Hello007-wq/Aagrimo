@@ -1122,6 +1122,191 @@ body {
   }
 }
 
+/* Products section responsive */
+@media (max-width: 1000px) {
+  #products h1 {
+    width: 90%;
+    font-size: 42px;
+  }
+
+  #products .product-content {
+    padding: 0 50px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  #products {
+    margin: 30px 20px;
+  }
+
+  #products h1 {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  #products .product-content {
+    padding: 0 20px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  #products .product-content .product-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  #products h1 {
+    font-size: 28px;
+  }
+
+  #products .product-content .product-card img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Blog section responsive */
+@media (max-width: 1000px) {
+  #blog {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .blog-heading {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  #blog {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .blog-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .blog-controls {
+    align-self: flex-end;
+  }
+
+  .blog-heading {
+    font-size: 36px;
+  }
+
+  .blog-bottom {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .blog-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-heading {
+    font-size: 28px;
+  }
+
+  .blog-card-top {
+    height: 250px;
+  }
+
+  .blog-card-bottom h4 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-card-top {
+    height: 200px;
+  }
+
+  .blog-card-bottom {
+    padding: 20px 0;
+  }
+}
+
+/* Responsive serv2 section */
+@media (max-width: 1000px) {
+  #serv2 {
+    height: 60vh;
+  }
+
+  .serv2-bg {
+    width: 60%;
+  }
+
+  .serv2-right {
+    width: 45%;
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  #serv2 {
+    height: auto;
+    min-height: 500px;
+    flex-direction: column;
+  }
+
+  .serv2-bg {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .serv2-right {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0 0 30px 30px;
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .serv2-bg {
+    height: 250px;
+  }
+
+  .serv2-right {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .serv2-bg {
+    height: 200px;
+  }
+
+  .serv2-right {
+    padding: 25px 15px;
+  }
+
+  #serv2 {
+    border-radius: 20px;
+  }
+
+  .serv2-bg {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .serv2-right {
+    border-radius: 0 0 20px 20px;
+  }
+}
+
 .serv2-title {
   background: #fff;
   border-radius: 30px;
