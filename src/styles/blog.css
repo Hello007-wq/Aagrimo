@@ -1,0 +1,53 @@
+.blog-svg {
+    top: -1px;
+    left: 83vw;
+}
+.category-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: #f8f8f2; /* matches your light beige background */
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: transparent;
+  border: none;
+  color: #404a3d;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 10px 22px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+  background: #404a3d;
+  color: #fff;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  color: #2e382a;
+}
+.filter-btn.active:hover {
+  background: #2e382a;
+}
+
+.blog-card{
+    margin-top: 50px;
+}
+@media (max-width: 1024px) {
+  .blog-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    width: 90%;
+  }
+}

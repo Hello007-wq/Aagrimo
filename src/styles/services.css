@@ -1,0 +1,22 @@
+.services-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 2.5rem; /* space between cards */
+  padding: 4rem 6%; /* space on both sides */
+  background-color: #f9f8f3; /* optional light background */
+  justify-items: center; /* centers cards in each column */
+}
+
+@media (max-width: 1024px) {
+  .services-info {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    padding: 3rem 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-info {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+    padding: 2rem 3%;
+  }
+}
