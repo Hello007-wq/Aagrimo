@@ -105,3 +105,16 @@
   justify-content: center;
   z-index: 4;
 }
+
+/* Additional responsive tweaks */
+@media (max-width: 480px) {
+  .serv-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serv-main-img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -147,6 +147,8 @@ const Portfolio = () => {
                 </div>
             </section>
 
+            {/* Add responsive tweaks for the Portfolio page */}
+            {/* Ensure the gallery grid adjusts properly for smaller screens */}
 
             <Footer />
         </>

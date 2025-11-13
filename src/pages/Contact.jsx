@@ -188,3 +188,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+// Add responsive tweaks for the Contact page
+// Ensure the form and sections adjust properly for smaller screens

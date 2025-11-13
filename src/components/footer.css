@@ -215,3 +215,21 @@
     align-items: flex-start;
   }
 }
+
+/* Additional responsive tweaks */
+@media (max-width: 480px) {
+  .footer-top-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-policy {
+    flex-direction: column;
+    text-align: center;
+  }
+}

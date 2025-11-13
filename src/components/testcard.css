@@ -110,3 +110,19 @@
   pointer-events: none;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.0);
 }
+
+/* Additional responsive tweaks */
+@media (max-width: 480px) {
+  .testcard {
+    padding: 20px;
+  }
+
+  .testcard-user {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testcard-avatar {
+    margin-bottom: 10px;
+  }
+}
